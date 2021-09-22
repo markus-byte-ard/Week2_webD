@@ -31,7 +31,7 @@ function initialize() {
       newListItem.appendChild(newComment);
 
       newRating.appendChild(document.createTextNode(text));
-      newComment.appendChild(document.createTextNode(" " + commentText.value));
+      newComment.appendChild(document.createTextNode(commentText.value));
       /*newListItem.innerHTML = commentText.value;*/
       commentList.appendChild(newListItem);
     } else {
