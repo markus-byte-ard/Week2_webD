@@ -17,6 +17,7 @@ function initialize() {
   addCommentButton.addEventListener("click", function () {
     const commentText = document.getElementById("comment-text");
     const commentRating = document.getElementById("stars");
+    const text = commentRating.options[commentRating.selectedIndex].text;
 
     let newListItem = document.createElement("div");
     newListItem.classList.add("comment");
@@ -29,7 +30,7 @@ function initialize() {
       newListItem.appendChild(newRating);
       newListItem.appendChild(newComment);
 
-      newRating.appendChild(document.createTextNode(commentRating.text));
+      newRating.appendChild(document.createTextNode(text));
       newComment.appendChild(document.createTextNode(" " + commentText.value));
       /*newListItem.innerHTML = commentText.value;*/
       commentList.appendChild(newListItem);
