@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <h1 class="header">Hello World!</h1>
+      <table id="menu-table">
+        <tbody>
+          <tr class="header">
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Opiskelija lounas</td>
+            <td>2,70€</td>
+          </tr>
+          <tr>
+            <td>Keitto</td>
+            <td>2,70€</td>
+          </tr>
+          <tr>
+            <td>Opiskelija lounas + kahvi</td>
+            <td>3,20€</td>
+          </tr>
+          <tr>
+            <td>Kokin suositus</td>
+            <td>4,80€</td>
+          </tr>
+          <tr>
+            <td>Opiskelija buffet</td>
+            <td>9,70€</td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <h3 class="header">Comments:</h3>
+
+        <ul id="comment-list">
+          <div class="comment">
+            <p class="comment-rating">3 Star</p>
+            <p class="comment-text">Amazing</p>
+          </div>
+        </ul>
+        <textarea
+          name="comment-text"
+          id="comment-text"
+          cols="30"
+          rows="10"
+          placeholder="Write Comments here"
+        ></textarea
+        ><br />
+        <select name="stars" id="stars">
+          <option value="1">1 Star</option>
+          <option value="2">2 Star</option>
+          <option value="3">3 Star</option>
+          <option value="4">4 Star</option>
+        </select>
+        <button id="add-comment">Add Comment</button>
+        <button id="remove-comments">Remove Comments</button>
+      </div>
+
+      <div id="app"></div>
+
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>

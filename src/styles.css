@@ -1,0 +1,38 @@
+body {
+  font-family: Garamond;
+}
+
+table#menu-table {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 3px;
+  width: 100%;
+}
+table#menu-table th {
+  padding: 3px;
+  background-color: darkorange;
+}
+table#menu-table td {
+  padding: 3px;
+}
+table#menu-table tr:nth-of-type(2n) {
+  background-color: gainsboro;
+}
+
+.header {
+  font-style: italic;
+}
+
+.menu-layout {
+  text-align: center;
+  align-content: center;
+  max-width: 740px;
+  margin: 0 auto;
+}
+.comment-rating,
+.comment-text {
+  display: inline;
+}
+#comment-list {
+  padding: 0;
+}
