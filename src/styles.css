@@ -27,7 +27,7 @@ table#menu-table tr:nth-of-type(2n) {
   text-align: center;
   align-content: center;
   max-width: 740px;
-  margin: 0 auto;
+  margin: auto;
 }
 .comment-rating,
 .comment-text {
