@@ -29,7 +29,7 @@ function initialize() {
       newListItem.appendChild(newRating);
       newListItem.appendChild(newComment);
 
-      newRating.appendChild(document.createTextNode(commentRating.value));
+      newRating.appendChild(document.createTextNode(commentRating.text));
       newComment.appendChild(document.createTextNode(" " + commentText.value));
       /*newListItem.innerHTML = commentText.value;*/
       commentList.appendChild(newListItem);
